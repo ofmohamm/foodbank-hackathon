@@ -1,0 +1,133 @@
+
+/* Variables for color values */
+$primary-color: #4caf50;
+$light-gray: #f2f2f2;
+$border-color: #ddd;
+$text-color: #333;
+$background-color: #f9f9f9;
+
+/* General reset and structure */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+header {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Making the white box more horizontal */
+main {
+  flex: 1;
+  padding: 20px;
+  width: 90%; /* Increase the width */
+  max-width: 1200px; /* Make it wider */
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: $text-color;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+
+  th,
+  td {
+    padding: 12px;
+    border: 1px solid $border-color;
+    text-align: left;
+  }
+
+  th {
+    background-color: $light-gray;
+    font-weight: bold;
+  }
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: $background-color;
+
+  .form-group {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+
+button {
+  padding: 12px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 5%);
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: $light-gray;
+  font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  main {
+    width: 95%;
+    max-width: 100%;
+  }
+
+  form {
+    flex-direction: column;
+  }
+}

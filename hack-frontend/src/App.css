@@ -1,0 +1,183 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.header .logo {
+  font-size: 1.5em;
+}
+
+.nav .nav-link {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+/* Impact Section */
+.impact-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+.impact-item {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.impact-item h3 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.impact-item p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2.2em;
+  color: #333;
+}
+
+.how-it-works-steps {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.step {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.step h3 {
+  font-size: 1.6em;
+  color: #333;
+}
+
+.step p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+/* nav 2.0 */
+.header {
+  background-color: #4caf50;
+  padding: 10px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+}
+
+
+ .nav-link:hover {
+  color: #fff;
+} 
