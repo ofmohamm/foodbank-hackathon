@@ -1,4 +1,4 @@
-# Food Bank Web Platform
+# Food Bank Website
 
 A web application designed for food banks and charitable organizations to request surplus food from university dining halls. Built for Syracuse CuseHacks hackathon project using Flask and MySQL.
 
