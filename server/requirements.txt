@@ -1,0 +1,8 @@
+Flask
+Flask-SQLAlchemy
+Flask-JWT-Extended
+Flask-Bcrypt
+mysqlclient
+Flask-login
+mysql-connector-python
+dotenv 

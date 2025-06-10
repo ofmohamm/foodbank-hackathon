@@ -6,45 +6,65 @@ import { Link } from "react-router-dom";
 const Homepage = () => {
   return (
     <div className="landing-page">
-     
-<header>
-    <img
-        src="/IMG/img/logo.jpeg"
-        alt="Barakah Bites Logo"
-        style={{ height: "55px" }}
-      />
-      <Link to="" className="logo-text">
-          Barakah Bites
-        </Link>
-</header>
+      {/* Header */}
+      <header className="header">
+        <div className="logo">Food Donation Platform</div>
+
+        <nav className="nav">
+          <a href="/login" className="nav-link">
+            Login
+          </a>
+          <a href="/signup" className="nav-link">
+            Sign Up
+          </a>
+
+          <li className="nav-item col-3">
+            <Link to="/Form" className="nav-link">
+              OrderForm
+            </Link>
+          </li>
+
+          {/* <a 
+            <Link to="/Dashboard" className="nav-link">
+              OrderForm
+            </Link>
+          </a> */}
+
+          {/* <Link className="nav-tabs dropdown-item" to="/Terms"> */}
+          <a href="/signup" className="nav-link">
+            About Us
+          </a>
+        </nav>
+      </header>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">Reduce Food Waste. Feed Communities.</h1>
           <p className="hero-subtitle">
-            Connecting dining halls with food banks and charities to eliminate food waste.
+            Connecting dining halls with food banks to eliminate food waste.
           </p>
-          <a href="/Form" className="cta-button">
-            Order Form
+          <a href="/signup" className="cta-button">
+            Get Started
           </a>
         </div>
       </section>
 
       {/* Impact Statistics Section */}
       <section className="impact-section">
-      <section className="impact-section"> </section>
         <div className="impact-item">
-          <h3>200+ Pounds of food</h3>
+          <h3>1000+ Meals Saved</h3>
           <p>
-            Wasted in Syracuse dining halls everyday.
+            In the last year, we’ve saved thousands of meals from going to
+            waste.
           </p>
         </div>
         <div className="impact-item">
-          <h3>15 Charities</h3>
+          <h3>50+ Charities</h3>
           <p>Partnering with local food banks and charitable organizations.</p>
         </div>
         <div className="impact-item">
-          <h3>17 Dining Halls</h3>
+          <h3>20+ Dining Halls</h3>
           <p>Working with universities to reduce food waste.</p>
         </div>
       </section>
@@ -79,7 +99,7 @@ const Homepage = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <p>© 2024 Bakarah Bites. All rights reserved.</p>
+        <p>© 2024 Food Donation Platform. All rights reserved.</p>
       </footer>
     </div>
   );

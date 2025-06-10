@@ -21,20 +21,8 @@ const Form = () => {
     <div className="app-container">
             
       <header>
-      <img
-        src="/IMG/img/logo.jpeg"
-        alt="Barakah Bites Logo"
-        style={{ height: "55px" }}
-      />
-      <Link to="/" className="logo-text">
-          Barakah Bites
-        </Link>
-        <h1>Available Food & Order</h1>
-        <nav className="nav">
-    <a id="navbar-brand" to="/" className="nav-logo">
-    </a>
-  </nav>
-      
+                <h1>Available Food & Order</h1>
+              
       </header>
             
       <main>
@@ -44,74 +32,37 @@ const Form = () => {
                     <h2>Available Food</h2>
                     
           <table>
-                        
-            <thead>
-                            
-              <tr>
-                                <th>Food Item</th>
-                                <th>Description</th>
-                                <th>Dining Hall</th>
-                              
-              </tr>
-                          
-            </thead>
-                        
-            {/* T1 */}
-            <tbody>
-                            
-              <tr>
-                                <td>Pizza</td>
-                                <td>Delicious cheese pizza</td>
-                                <td>Shaw</td>
-                              
-              </tr>
-                            
-              <tr>
-                                <td>Burger</td>
-                                <td>Beef burger</td>
-                                <td>Ernie</td>
-                              
-              </tr>
-                          
-            </tbody>
-            {/* T2 */}
-            <tbody>
-                            
-              <tr>
-                                <td>Pizza</td>
-                                <td>Delicious cheese pizza</td>
-                                <td>Shaw</td>
-                              
-              </tr>
-                            
-              <tr>
-                                <td>Burger</td>
-                                <td>Beef burger</td>
-                                <td>Ernie</td>
-                              
-              </tr>
-                          
-            </tbody>
-            {/* T3 */}
-            <tbody>
-                            
-              <tr>
-                                <td>Pizza</td>
-                                <td>Delicious cheese pizza</td>
-                                <td>Shaw</td>
-                              
-              </tr>
-                            
-              <tr>
-                                <td>Burger</td>
-                                <td>Beef burger</td>
-                                <td>Ernie</td>
-                              
-              </tr>
-                          
-            </tbody>
-                      
-          </table>
+                        
+            <thead>
+                            
+              <tr>
+                                <th>Food Item</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                              
+              </tr>
+                          
+            </thead>
+                        
+            <tbody>
+                            
+              <tr>
+                                <td>Pizza</td>
+                                <td>Delicious cheese pizza</td>
+                                <td>$10</td>
+                              
+              </tr>
+                            
+              <tr>
+                                <td>Burger</td>
+                                <td>Juicy beef burger</td>
+                                <td>$8</td>
+                              
+              </tr>
+                          
+            </tbody>
+                      
+          </table>
                   
         </section>
                 {/* Order Form Section */}
@@ -181,8 +132,9 @@ const Form = () => {
       </main>
             {/* Footer Section */}
             
-      <footer className="footer">
-        <p>© 2024 Bakarah Bites. All rights reserved.</p>
+      <footer>
+                <p>&copy; 2024 Your Organization. All rights reserved.</p>
+                <p>Contact us: info@yourorganization.com</p>
       </footer>
     </div>
   );

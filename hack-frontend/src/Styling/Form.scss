@@ -1,4 +1,119 @@
+// /* src/Dashboard.css */
+// body {
+//   font-family: Arial, sans-serif;
+//   background-color: #f7f7f7;
+//   margin: 0;
+//   padding: 0;
+// }
 
+// .dashboard-container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: 20px;
+// }
+
+// .dashboard-header {
+//   background-color: #4caf50;
+//   padding: 20px;
+//   color: white;
+//   text-align: center;
+// }
+
+// .summary-section {
+//   display: flex;
+//   justify-content: space-around;
+//   margin-top: 20px;
+// }
+
+// .summary-card {
+//   background-color: white;
+//   padding: 20px;
+//   border-radius: 5px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   text-align: center;
+// }
+
+// .summary-card h3 {
+//   margin: 0;
+//   color: #333;
+// }
+
+// .summary-card p {
+//   font-size: 24px;
+//   color: #4caf50;
+// }
+
+// .donation-form-section {
+//   margin-top: 40px;
+//   background-color: white;
+//   padding: 20px;
+//   border-radius: 5px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+// }
+
+// .donation-form {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .donation-form label {
+//   margin-bottom: 10px;
+//   font-size: 16px;
+//   color: #333;
+// }
+
+// .donation-form input {
+//   padding: 10px;
+//   margin-bottom: 20px;
+//   border: 1px solid #ddd;
+//   border-radius: 4px;
+// }
+
+// .donation-form button {
+//   padding: 10px 20px;
+//   background-color: #4caf50;
+//   color: white;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+
+// .donation-form button:hover {
+//   background-color: #45a049;
+// }
+
+// .donations-section {
+//   margin-top: 40px;
+// }
+
+// .donations-section table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   background-color: white;
+//   border-radius: 5px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   overflow: hidden;
+// }
+
+// .donations-section th,
+// .donations-section td {
+//   padding: 12px 20px;
+//   text-align: left;
+//   border-bottom: 1px solid #ddd;
+// }
+
+// .donations-section th {
+//   background-color: #f4f4f4;
+//   color: #333;
+// }
+
+// .donations-section tr:hover {
+//   background-color: #f1f1f1;
+// }
+
+// .donations-section td {
+//   color: #333;
+// }
 /* Variables for color values */
 $primary-color: #4caf50;
 $light-gray: #f2f2f2;
